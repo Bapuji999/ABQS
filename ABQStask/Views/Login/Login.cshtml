@@ -1,0 +1,15 @@
+﻿@model ABQS.Models.CommandModel.LoginCommandModel
+
+<form asp-action="Login" asp-controller="Login" method="post">
+    <div>
+        <label asp-for="EmailID"></label>
+        <input asp-for="EmailID" />
+        <span asp-validation-for="EmailID"></span>
+    </div>
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+    <button type="submit">Login</button>
+</form>

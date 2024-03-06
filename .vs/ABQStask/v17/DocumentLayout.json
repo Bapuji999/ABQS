@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ABQStask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\data\\abqscontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\data\\abqscontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96F14D50-CE5F-405A-8FE1-BC06BC5FE2E5}|ABQS.Models\\ABQS.Models.csproj|d:\\abqstask\\abqs.models\\commandmodel\\logincommandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96F14D50-CE5F-405A-8FE1-BC06BC5FE2E5}|ABQS.Models\\ABQS.Models.csproj|solutionrelative:abqs.models\\commandmodel\\logincommandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbqsContex.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Data\\AbqsContex.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Data\\AbqsContex.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Data\\AbqsContex.cs",
+              "RelativeToolTip": "ABQStask\\Data\\AbqsContex.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowBQAAACPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:45:05.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ABQStask\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ABQStask\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T15:27:38.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "ABQStask\\Views\\Login\\Login.cshtml",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "ABQStask\\Views\\Login\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-06T15:24:23.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Program.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Program.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Program.cs",
+              "RelativeToolTip": "ABQStask\\Program.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAmwD4AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:18:56.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ABQStask\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:03:54.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommandModel.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQS.Models\\CommandModel\\LoginCommandModel.cs",
+              "RelativeDocumentMoniker": "ABQS.Models\\CommandModel\\LoginCommandModel.cs",
+              "ToolTip": "D:\\ABQStask\\ABQS.Models\\CommandModel\\LoginCommandModel.cs",
+              "RelativeToolTip": "ABQS.Models\\CommandModel\\LoginCommandModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T15:02:40.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

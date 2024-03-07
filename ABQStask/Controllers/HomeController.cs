@@ -15,6 +15,10 @@ namespace ABQStask.Controllers
 
         public IActionResult Index()
         {
+            if (HttpContext.Session.GetString("Token") == null)
+            {
+                return RedirectToAction("Login", "Auth");
+            }
             return View();
         }
 

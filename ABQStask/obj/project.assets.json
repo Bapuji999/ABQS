@@ -1142,19 +1142,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cybrain\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ABQStask\\ABQStask\\ABQStask.csproj",
+      "projectUniqueName": "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj",
       "projectName": "ABQStask",
-      "projectPath": "D:\\ABQStask\\ABQStask\\ABQStask.csproj",
-      "packagesPath": "C:\\Users\\Cybrain\\.nuget\\packages\\",
-      "outputPath": "D:\\ABQStask\\ABQStask\\obj\\",
+      "projectPath": "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "D:\\pp\\ABQS\\ABQStask\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Cybrain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1162,14 +1162,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\ASUS\\Downloads\\LoggingAdapter": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\ABQStask\\ABQS.Models\\ABQS.Models.csproj": {
-              "projectPath": "D:\\ABQStask\\ABQS.Models\\ABQS.Models.csproj"
+            "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj": {
+              "projectPath": "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj"
             }
           }
         }
@@ -1178,11 +1179,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1227,7 +1223,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

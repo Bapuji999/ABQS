@@ -1,0 +1,13 @@
+﻿@model ABQS.Models.CommandModel.LoginCommandModel
+
+<h3>Register Page</h3>
+<form asp-controller="Auth" asp-action="Create" method="post">
+    <table border="0" cellpadding="2" cellspacing="2">
+        <tr>
+            <td>Username</td>
+            <td><input asp-for="EmailID" /></td>
+        </tr>
+        <!-- Add other form fields for password, email, gender, etc. -->
+    </table>
+    <button type="submit">Register</button>
+</form>

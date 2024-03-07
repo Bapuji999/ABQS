@@ -1,5 +1,6 @@
 using System.Text;
 using ABQStask.Data;
+using ABQStask.Helpers;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -60,7 +61,8 @@ namespace ABQStask
             app.UseStaticFiles();
 
             app.UseRouting();
-            app.UseSession();
+            app.UseSession(); 
+            app.UseMiddleware<BearerTokenMiddleware>();
             app.UseAuthentication();
             app.UseAuthorization();
 

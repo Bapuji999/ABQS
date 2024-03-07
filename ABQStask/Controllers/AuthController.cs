@@ -14,12 +14,12 @@ using System.Text;
 
 namespace ABQStask.Controllers
 {
-    public class LoginController : Controller
+    public class AuthController : Controller
     {
         private readonly IConfiguration _configuration;
         private readonly AbqsContex _dbContext;
 
-        public LoginController(IConfiguration configuration, AbqsContex dbContext)
+        public AuthController(IConfiguration configuration, AbqsContex dbContext)
         {
             _configuration = configuration;
             _dbContext = dbContext;
@@ -30,7 +30,19 @@ namespace ABQStask.Controllers
         {
             return View();
         }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult Resister()
+        {
+            return View();
+        }
 
+        [AllowAnonymous]
+        [HttpPost]
+        public IActionResult Resister(LoginCommandModel loginCommandModel)
+        {
+            return View();
+        }
         [AllowAnonymous]
         [HttpPost]
         public IActionResult Login(LoginCommandModel loginCommandModel)

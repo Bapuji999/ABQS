@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ABQStask.Models
 {
@@ -13,7 +14,7 @@ namespace ABQStask.Models
         public string Phone { get; set; }
         [Required]
         public string Password { get; set; }
-        public bool isAdmin { get; set; }
+        public int RoleId { get; set; }
         public bool isDeleted { get; set; }
     }
 }

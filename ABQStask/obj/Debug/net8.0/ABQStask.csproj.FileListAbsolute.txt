@@ -45,11 +45,6 @@ D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\ABQStask\ABQStask\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
-D:\ABQStask\ABQStask\bin\Debug\net8.0\ABQS.Models.deps.json
-D:\ABQStask\ABQStask\bin\Debug\net8.0\ABQS.Models.runtimeconfig.json
-D:\ABQStask\ABQStask\bin\Debug\net8.0\ABQS.Models.exe
-D:\ABQStask\ABQStask\bin\Debug\net8.0\ABQS.Models.dll
-D:\ABQStask\ABQStask\bin\Debug\net8.0\ABQS.Models.pdb
 D:\pp\ABQS\ABQStask\bin\Debug\net8.0\appsettings.Development.json
 D:\pp\ABQS\ABQStask\bin\Debug\net8.0\appsettings.json
 D:\pp\ABQS\ABQStask\bin\Debug\net8.0\ABQS.Models.deps.json
@@ -103,3 +98,12 @@ D:\pp\ABQS\ABQStask\obj\Debug\net8.0\refint\ABQStask.dll
 D:\pp\ABQS\ABQStask\obj\Debug\net8.0\ABQStask.pdb
 D:\pp\ABQS\ABQStask\obj\Debug\net8.0\ABQStask.genruntimeconfig.cache
 D:\pp\ABQS\ABQStask\obj\Debug\net8.0\ref\ABQStask.dll
+D:\ABQStask\ABQStask\obj\Debug\net8.0\ABQStask.sourcelink.json
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\Recaptcha.Web.dll
+D:\ABQStask\ABQStask\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\ABQStask\ABQStask\obj\Debug\net8.0\ABQStask.MvcApplicationPartsAssemblyInfo.cs

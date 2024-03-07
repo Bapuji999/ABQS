@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj": {}
+    "D:\\ABQStask\\ABQStask\\ABQStask.csproj": {}
   },
   "projects": {
-    "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj": {
+    "D:\\ABQStask\\ABQStask\\ABQStask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj",
-        "projectName": "ABQS.Models",
-        "projectPath": "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\pp\\ABQS\\ABQS.Models\\obj\\",
+        "projectUniqueName": "D:\\ABQStask\\ABQStask\\ABQStask.csproj",
+        "projectName": "ABQStask",
+        "projectPath": "D:\\ABQStask\\ABQStask\\ABQStask.csproj",
+        "packagesPath": "C:\\Users\\Cybrain\\.nuget\\packages\\",
+        "outputPath": "D:\\ABQStask\\ABQStask\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cybrain\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\ASUS\\Downloads\\LoggingAdapter": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,66 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj",
-        "projectName": "ABQStask",
-        "projectPath": "D:\\pp\\ABQS\\ABQStask\\ABQStask.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\pp\\ABQS\\ABQStask\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\ASUS\\Downloads\\LoggingAdapter": {},
-          "https://api.nuget.org/v3/index.json": {}
         },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj": {
-                "projectPath": "D:\\pp\\ABQS\\ABQS.Models\\ABQS.Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -118,6 +62,10 @@
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.1, )"
+            },
+            "RecaptchaNet": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -139,7 +87,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

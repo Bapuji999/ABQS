@@ -3,6 +3,7 @@ using System;
 using ABQStask.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ABQStask.Migrations
 {
     [DbContext(typeof(AbqsContex))]
-    partial class AbqsContexModelSnapshot : ModelSnapshot
+    [Migration("20240307165603_role added")]
+    partial class roleadded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -3,6 +3,7 @@ using System;
 using ABQStask.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ABQStask.Migrations
 {
     [DbContext(typeof(AbqsContex))]
-    partial class AbqsContexModelSnapshot : ModelSnapshot
+    [Migration("20240307163808_roll added")]
+    partial class rolladded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,9 +73,9 @@ namespace ABQStask.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("ABQStask.Models.Role", b =>
+            modelBuilder.Entity("ABQStask.Models.Roll", b =>
                 {
-                    b.Property<int>("RoleId")
+                    b.Property<int>("RollId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
@@ -81,24 +83,24 @@ namespace ABQStask.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.HasKey("RoleId");
+                    b.HasKey("RollId");
 
-                    b.ToTable("Roles");
+                    b.ToTable("Roll");
 
                     b.HasData(
                         new
                         {
-                            RoleId = 1,
+                            RollId = 1,
                             RollName = "Admin"
                         },
                         new
                         {
-                            RoleId = 2,
+                            RollId = 2,
                             RollName = "SubAdmin"
                         },
                         new
                         {
-                            RoleId = 3,
+                            RollId = 3,
                             RollName = "User"
                         });
                 });
@@ -125,7 +127,7 @@ namespace ABQStask.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<int>("RoleId")
+                    b.Property<int>("RollId")
                         .HasColumnType("int");
 
                     b.Property<bool>("isDeleted")
@@ -138,12 +140,12 @@ namespace ABQStask.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = new Guid("cc165651-aa28-4867-a40c-0b0045019f53"),
+                            UserId = new Guid("0d559439-9562-4186-9538-0f37ba3df7d2"),
                             Email = "admin999@gmail.com",
                             Name = "Admin1",
                             Password = "Admin1",
                             Phone = "9874563210",
-                            RoleId = 1,
+                            RollId = 1,
                             isDeleted = false
                         });
                 });

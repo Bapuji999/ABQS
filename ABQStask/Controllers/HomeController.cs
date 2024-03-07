@@ -15,11 +15,17 @@ namespace ABQStask.Controllers
 
         public IActionResult Index()
         {
-            if (HttpContext.Session.GetString("Token") == null)
+            string token = Request.Headers["Authorization"].ToString();
+
+            if (string.IsNullOrEmpty(token))
             {
                 return RedirectToAction("Login", "Auth");
             }
-            return View();
+            else
+            {
+                HttpContext.Session.SetString("Token", token); 
+                return View();
+            }
         }
 
         public IActionResult Privacy()

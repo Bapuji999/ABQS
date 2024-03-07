@@ -14,7 +14,7 @@
             string token = context.Session.GetString("Token");
 
             if (!string.IsNullOrEmpty(token))
-                context.Request.Headers.Add("Authorization", $"Bearer {token}");
+                context.Request.Headers.Add("Authorization", token);
 
             await _next(context);
         }

@@ -1,4 +1,4 @@
-﻿using ABQS.Models.CommandModel;
+﻿using ABQStask.CommandModel;
 using ABQStask.Data;
 using ABQStask.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using Newtonsoft.Json;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -31,6 +32,12 @@ namespace ABQStask.Controllers
             return View();
         }
         [HttpGet]
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("Token");
+            return Ok(new { success = true });
+        }
+        [HttpGet]
         [AllowAnonymous]
         public IActionResult Resister()
         {
@@ -39,13 +46,37 @@ namespace ABQStask.Controllers
 
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Resister(LoginCommandModel loginCommandModel)
+        public IActionResult Resister(UserRegistrationModel userRegistrationModel)
         {
-            return View();
+            if (ModelState.IsValid)
+            {
+                if(_dbContext.Users.Any(x => x.Email == userRegistrationModel.Email))
+                {
+                    ModelState.AddModelError("", "EmailId already present please try with diffrent emailid.");
+                    return View(userRegistrationModel);
+                }
+                User user = new User();
+                user.Email = userRegistrationModel.Email;
+                user.UserId = new Guid();
+                user.RoleId = 3;
+                user.Name = userRegistrationModel.UserName;
+                user.isDeleted = false;
+                user.Phone = userRegistrationModel.PhoneNumber;
+                user.Password = userRegistrationModel.Password;
+                var token = Generate(user);
+                HttpContext.Session.SetString("Token", token); ;
+                var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
+                HttpContext.Session.Remove("Role");
+                HttpContext.Session.SetString("Role", roleName);
+                _dbContext.Add(user);
+                _dbContext.SaveChanges();
+                return RedirectToAction("Index", "Home");
+            }
+            return View(userRegistrationModel);
         }
         [AllowAnonymous]
         [HttpPost]
-        public IActionResult Login(LoginCommandModel loginCommandModel)
+        public async Task<IActionResult> Login(LoginCommandModel loginCommandModel, string gRecaptchaResponse)
         {
             try
             {
@@ -53,14 +84,16 @@ namespace ABQStask.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
-
                 var user = Authenticate(loginCommandModel);
 
                 if (user != null)
                 {
                     var token = Generate(user);
                     HttpContext.Session.SetString("Token", token);
-                    return RedirectToAction("Index", "Home");
+                    var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
+                    HttpContext.Session.Remove("Role");
+                    HttpContext.Session.SetString("Role", roleName);
+                    return Ok(new { token, roleName });
                 }
                 else
                 {
@@ -74,7 +107,7 @@ namespace ABQStask.Controllers
                 return BadRequest("An error occurred while processing your request.");
             }
         }
-
+        
         private User Authenticate(LoginCommandModel loginCommandModel)
         {
             try
@@ -94,9 +127,11 @@ namespace ABQStask.Controllers
             {
                 var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
                 var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+                var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
                 var claims = new[]
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Name),
+                    new Claim(ClaimTypes.Role, roleName),
                     new Claim(ClaimTypes.Email, user.Email),
                     new Claim(ClaimTypes.MobilePhone, user.Phone)
                 };

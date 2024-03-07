@@ -14,10 +14,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\ABQS.Models\ABQS.Models.csproj" />
+    <PackageReference Include="RecaptchaNet" Version="3.1.0" />
   </ItemGroup>
 
 </Project>

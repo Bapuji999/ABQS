@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ABQStask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c8c4a032c315c4356ec56b668f84b109d177e5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e592fb27c4a90d93656aa68e48feeab6a3abcc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ABQStask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ABQStask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,18 +1,111 @@
-﻿@model ABQS.Models.CommandModel.LoginCommandModel
+﻿@model ABQStask.CommandModel.LoginCommandModel
 
-<form asp-action="Login" asp-controller="Login" method="post">
+<form id="loginForm" asp-action="Login" asp-controller="Auth" method="post">
     <div>
         <label asp-for="EmailID"></label>
         <input asp-for="EmailID" />
-        <span asp-validation-for="EmailID"></span>
+        <span asp-validation-for="EmailID" style="color: red"></span>
     </div>
     <div>
         <label asp-for="Password"></label>
         <input asp-for="Password" />
-        <span asp-validation-for="Password"></span>
+        <span asp-validation-for="Password" style="color: red"></span>
     </div>
-    <button type="submit">Login</button>
+    <div class="g-recaptcha" data-sitekey="6Ld4uZApAAAAAPA2il0bjUzV_XzuX2tfWGgSkyfA" data-callback="recaptchaCallback"></div>
+    <input type="hidden" name="recaptchaResponse" id="recaptchaResponse" />
+    <span style="color: red" id="captchaError"></span>
+    <button type="submit" id="submitButton" disabled>Login</button>
 </form>
 <button onclick="window.location.href='@Url.Action("Resister", "Auth")'">
-    Resister
+    Register
 </button>
+
+<div id="errorContainer" style="color: red"></div>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    // Check if ModelState contains errors
+    @if (!ViewData.ModelState.IsValid)
+    {
+        // Display each error in the errorContainer
+        <text>
+                    var errorContainer = document.getElementById("errorContainer");
+        errorContainer.innerHTML = "<ul>";
+                @foreach (var entry in ViewData.ModelState)
+                {
+                    foreach (var error in entry.Value.Errors)
+                    {
+                        <text>
+                    errorContainer.innerHTML += "<li>@error.ErrorMessage</li>";
+                        </text>
+                    }
+                }
+            errorContainer.innerHTML += "</ul>";
+        </text>
+    }
+
+    // Callback function executed when reCAPTCHA is completed
+    function recaptchaCallback(response) {
+        document.getElementById('recaptchaResponse').value = response;
+        document.getElementById('submitButton').disabled = false; // Enable submit button
+    }
+
+    // Validate CAPTCHA before form submission
+    document.querySelector('form').addEventListener('submit', function (event) {
+        if (!validateRecaptcha()) {
+            event.preventDefault();
+        }
+    });
+</script>
+<script>
+    var token = localStorage.getItem('Token');
+    debugger;
+    if (token) {
+        fetch('/Home/Index', {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Failed to load page');
+                }
+                return response.text();
+            })
+            .then(data => {
+                document.documentElement.innerHTML = data;
+                sessionStorage.setItem('Token', token);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+
+        window.location.href = '@Url.Action("Index", "Home")';
+    } 
+</script>
+<script>
+    document.getElementById('loginForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        var formData = new FormData(this);
+
+        try {
+            var response = await fetch('/Auth/Login', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (response.ok) {
+                var data = await response.json();
+                localStorage.setItem('Token', data.token);
+                localStorage.setItem('RoleName', data.roleName);
+                window.location.href = '/Home/Index';
+            } else {
+                console.error('Login failed:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error:', error.message);
+        }
+    });
+</script>

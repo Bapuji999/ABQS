@@ -1,9 +1,17 @@
-﻿@{
+﻿@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <a href="@Url.Action("Login", "Auth")">Login</a>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome <span id="rolePlaceholder"></span></h1>
 </div>
+
+<script>
+    var roleFromLocalStorage = "guest";
+    if (window.localStorage.getItem('RoleName') !== null) {
+        roleFromLocalStorage = window.localStorage.getItem('RoleName');
+    }
+    document.getElementById('rolePlaceholder').innerText = roleFromLocalStorage;
+</script>

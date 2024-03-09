@@ -63,13 +63,14 @@ namespace ABQStask.Controllers
                 user.isDeleted = false;
                 user.Phone = userRegistrationModel.PhoneNumber;
                 user.Password = userRegistrationModel.Password;
-                var token = Generate(user);
+                var token = "Bearer " + Generate(user);
                 HttpContext.Session.SetString("Token", token); ;
                 var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
                 HttpContext.Session.Remove("Role");
                 HttpContext.Session.SetString("Role", roleName);
                 _dbContext.Add(user);
                 _dbContext.SaveChanges();
+                TempData["SuccessMessage"] = "Users Resistered successfully.";
                 return RedirectToAction("Index", "Home");
             }
             return View(userRegistrationModel);
@@ -88,11 +89,12 @@ namespace ABQStask.Controllers
 
                 if (user != null)
                 {
-                    var token = Generate(user);
+                    var token = "Bearer " + Generate(user);
                     HttpContext.Session.SetString("Token", token);
                     var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
                     HttpContext.Session.Remove("Role");
                     HttpContext.Session.SetString("Role", roleName);
+                    TempData["SuccessMessage"] = "Login successfull.";
                     return Ok(new { token, roleName });
                 }
                 else

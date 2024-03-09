@@ -1,0 +1,38 @@
+﻿@model List<ABQStask.CommandModel.UserDeleteCommandModel>
+
+<h1>Delete Users</h1>
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger" role="alert">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+@using (Html.BeginForm("DeleteUser", "Admin", FormMethod.Post))
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>Email</th>
+                <th>Delete?</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (var i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@Model[i].Name</td>
+                    <td>@Model[i].Email</td>
+                    <td>
+                        <input type="checkbox" asp-for="@Model[i].IsSelected" />
+                        <input type="hidden" asp-for="@Model[i].UserId" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-danger">Delete Selected Users</button>
+}

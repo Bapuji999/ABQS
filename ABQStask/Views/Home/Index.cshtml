@@ -3,15 +3,36 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
 <div class="text-center">
     <h1 class="display-4">Welcome <span id="rolePlaceholder"></span></h1>
 </div>
 
+<div id="buttonContainer" class="text-center">
+    <a id="addCategoryBtn" href="@Url.Action("AddCategory", "Admin")" style="display:none" class="btn btn-primary">Add Category</a>
+    <a id="deleteUserBtn" href="@Url.Action("AddProduct", "Admin")" style="display:none" class="btn btn-primary">Add Product</a>
+    <a id="addProductBtn" href="@Url.Action("DeleteUser", "Admin")" style="display:none" class="btn btn-primary">Delete User</a>
+    <button id="viewCategoryBtn" style="display:none">View Categories</button>
+    <button id="viewProductBtn" style="display:none">View Products</button>
+</div>
+<script>
+    var successMessage = '@TempData["SuccessMessage"]';
+    if (successMessage) {
+        alert(successMessage);
+    }
+</script>
 <script>
     var roleFromLocalStorage = "guest";
     if (window.localStorage.getItem('RoleName') !== null) {
         roleFromLocalStorage = window.localStorage.getItem('RoleName');
     }
     document.getElementById('rolePlaceholder').innerText = roleFromLocalStorage;
+
+    if (roleFromLocalStorage === "Admin") {
+        document.getElementById('addCategoryBtn').style.display = 'inline-block';
+        document.getElementById('addProductBtn').style.display = 'inline-block';
+        document.getElementById('deleteUserBtn').style.display = 'inline-block';
+    } else if (roleFromLocalStorage === "User") {
+        document.getElementById('viewCategoryBtn').style.display = 'inline-block';
+        document.getElementById('viewProductBtn').style.display = 'inline-block';
+    }
 </script>

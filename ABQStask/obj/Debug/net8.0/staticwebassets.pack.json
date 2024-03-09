@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ABQStask\\ABQStask\\wwwroot\\images\\58b070c8-7ee9-481a-8d87-da10e1823077-original-imagh3w9ujuu3u2e.webp",
+      "PackagePath": "staticwebassets\\images\\58b070c8-7ee9-481a-8d87-da10e1823077-original-imagh3w9ujuu3u2e.webp"
+    },
+    {
+      "Id": "D:\\ABQStask\\ABQStask\\wwwroot\\images\\59a5f2d0-33ef-4e1a-8510-e45630da6cfc-original-imagh3w9ujuu3u2e.webp",
+      "PackagePath": "staticwebassets\\images\\59a5f2d0-33ef-4e1a-8510-e45630da6cfc-original-imagh3w9ujuu3u2e.webp"
+    },
+    {
+      "Id": "D:\\ABQStask\\ABQStask\\wwwroot\\images\\bag.png",
+      "PackagePath": "staticwebassets\\images\\bag.png"
+    },
+    {
       "Id": "D:\\ABQStask\\ABQStask\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

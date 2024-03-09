@@ -3,56 +3,24 @@
   "WorkspaceRootPath": "D:\\ABQStask\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\auth\\resister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\auth\\resister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\commandmodel\\logincommandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\commandmodel\\logincommandmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\helpers\\bearertokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\helpers\\bearertokenmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\commandmodel\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\commandmodel\\userregistrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\data\\abqscontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\data\\abqscontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|d:\\abqstask\\abqstask\\views\\auth\\resister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{725F7462-FC25-4815-8A95-E0DF51829E90}|ABQStask\\ABQStask.csproj|solutionrelative:abqstask\\views\\auth\\resister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,169 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "ABQStask\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFEAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T15:14:54.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "ABQStask\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAiwBoAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T15:15:21.303Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BearerTokenMiddleware.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Helpers\\BearerTokenMiddleware.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Helpers\\BearerTokenMiddleware.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Helpers\\BearerTokenMiddleware.cs",
-              "RelativeToolTip": "ABQStask\\Helpers\\BearerTokenMiddleware.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T17:22:45.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ABQStask\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ABQStask\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAD4AAABKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T17:09:59.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ABQStask\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ABQStask\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T17:44:56.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginCommandModel.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\CommandModel\\LoginCommandModel.cs",
-              "RelativeDocumentMoniker": "ABQStask\\CommandModel\\LoginCommandModel.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\CommandModel\\LoginCommandModel.cs",
-              "RelativeToolTip": "ABQStask\\CommandModel\\LoginCommandModel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAD4vw0AAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:43:19.234Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "ABQStask\\Views\\Auth\\Login.cshtml",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Login.cshtml",
-              "RelativeToolTip": "ABQStask\\Views\\Auth\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T16:59:11.656Z",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ABQStask\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAowGkAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T21:40:46.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BearerTokenMiddleware.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Helpers\\BearerTokenMiddleware.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Helpers\\BearerTokenMiddleware.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Helpers\\BearerTokenMiddleware.cs",
+              "RelativeToolTip": "ABQStask\\Helpers\\BearerTokenMiddleware.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T21:36:16.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Resister.cshtml",
               "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Resister.cshtml",
               "RelativeDocumentMoniker": "ABQStask\\Views\\Auth\\Resister.cshtml",
               "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Resister.cshtml",
               "RelativeToolTip": "ABQStask\\Views\\Auth\\Resister.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-07T16:57:53.097Z",
+              "WhenOpened": "2024-03-09T21:33:03.983Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Program.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Program.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Program.cs",
-              "RelativeToolTip": "ABQStask\\Program.cs",
-              "ViewState": "AQIAADQAAAAAAAAAAAAIwEAAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T15:15:24.194Z"
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "ABQStask\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "ABQStask\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAAD8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-09T21:33:02.611Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserRegistrationModel.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\CommandModel\\UserRegistrationModel.cs",
-              "RelativeDocumentMoniker": "ABQStask\\CommandModel\\UserRegistrationModel.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\CommandModel\\UserRegistrationModel.cs",
-              "RelativeToolTip": "ABQStask\\CommandModel\\UserRegistrationModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ABQStask\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ABQStask\\ABQStask\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ABQStask\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAGEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:43:10.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Models\\Role.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Models\\Role.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Models\\Role.cs",
-              "RelativeToolTip": "ABQStask\\Models\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:46:49.584Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AbqsContex.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Data\\AbqsContex.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Data\\AbqsContex.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Data\\AbqsContex.cs",
-              "RelativeToolTip": "ABQStask\\Data\\AbqsContex.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowBoAAACYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:47:10.425Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ABQStask\\ABQStask\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ABQStask\\Models\\User.cs",
-              "ToolTip": "D:\\ABQStask\\ABQStask\\Models\\User.cs",
-              "RelativeToolTip": "ABQStask\\Models\\User.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T16:47:49.376Z"
+              "WhenOpened": "2024-03-09T21:21:24.8Z",
+              "EditorCaption": ""
             }
           ]
         }

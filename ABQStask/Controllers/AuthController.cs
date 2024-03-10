@@ -64,13 +64,15 @@ namespace ABQStask.Controllers
                 user.Phone = userRegistrationModel.PhoneNumber;
                 user.Password = userRegistrationModel.Password;
                 var token = "Bearer " + Generate(user);
-                HttpContext.Session.SetString("Token", token); ;
+                HttpContext.Session.SetString("Token", token);
                 var roleName = _dbContext.Roles.Where(x => x.RoleId == user.RoleId).FirstOrDefault()?.RollName;
                 HttpContext.Session.Remove("Role");
                 HttpContext.Session.SetString("Role", roleName);
                 _dbContext.Add(user);
                 _dbContext.SaveChanges();
-                TempData["SuccessMessage"] = "Users Resistered successfully.";
+                TempData["SuccessMessage"] = "Users Resistered successfully."; 
+                TempData["Token"] = token;
+                TempData["Role"] = roleName;
                 return RedirectToAction("Index", "Home");
             }
             return View(userRegistrationModel);

@@ -11,13 +11,21 @@
     <a id="addCategoryBtn" href="@Url.Action("AddCategory", "Admin")" style="display:none" class="btn btn-primary">Add Category</a>
     <a id="deleteUserBtn" href="@Url.Action("AddProduct", "Admin")" style="display:none" class="btn btn-primary">Add Product</a>
     <a id="addProductBtn" href="@Url.Action("DeleteUser", "Admin")" style="display:none" class="btn btn-primary">Delete User</a>
-    <button id="viewCategoryBtn" style="display:none">View Categories</button>
-    <button id="viewProductBtn" style="display:none">View Products</button>
+    <a id="viewProductBtn" href="@Url.Action("Products", "User")" style="display:none" class="btn btn-primary">View Products</a>
+    <a id="viewCategoryBtn" href="@Url.Action("Categories", "User")" style="display:none" class="btn btn-primary">View Categories</a>
 </div>
 <script>
     var successMessage = '@TempData["SuccessMessage"]';
     if (successMessage) {
         alert(successMessage);
+    }
+    var token = '@TempData["Token"]';
+    if (token) {
+        localStorage.setItem('Token', token);
+    }
+    var role = '@TempData["Role"]';
+    if (role) {
+        localStorage.setItem('RoleName', role);
     }
 </script>
 <script>
